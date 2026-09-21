@@ -209,15 +209,15 @@
   /* ---------------- hero 3D interaction ---------------- */
 
   function initHeroParallax() {
-    var scene = qs("#hero-scene");
-    var wrap = qs("#hero-card-wrap");
-    if (!scene || !wrap) return;
+    var scene = qs(".hero");
+    var frame = qs("#hero-art-frame");
+    if (!scene || !frame) return;
 
     var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduceMotion) return;
+    if (window.matchMedia("(max-width: 860px)").matches) return;
 
-    var maxTilt = 14;
-    var raf = null;
+    var maxTilt = 10;
     var target = { x: 0, y: 0 };
     var current = { x: 0, y: 0 };
 
@@ -231,39 +231,14 @@
 
     scene.addEventListener("mousemove", function (e) { onMove(e.clientX, e.clientY); });
     scene.addEventListener("mouseleave", function () { target.x = 0; target.y = 0; });
-    scene.addEventListener("touchmove", function (e) {
-      if (e.touches && e.touches[0]) onMove(e.touches[0].clientX, e.touches[0].clientY);
-    }, { passive: true });
 
     function tick() {
-      current.x += (target.x - current.x) * 0.06;
-      current.y += (target.y - current.y) * 0.06;
-      wrap.style.transform = "translate(-50%, -50%) rotateX(" + current.y + "deg) rotateY(" + current.x + "deg)";
-      raf = requestAnimationFrame(tick);
+      current.x += (target.x - current.x) * 0.08;
+      current.y += (target.y - current.y) * 0.08;
+      frame.style.transform = "rotateX(" + current.y + "deg) rotateY(" + current.x + "deg)";
+      requestAnimationFrame(tick);
     }
     tick();
-  }
-
-  function initParticles() {
-    var field = qs("#hero-particles");
-    if (!field) return;
-    var colors = ["#2de2e6", "#ff2fb9", "#9dfc4a"];
-    var count = window.innerWidth < 700 ? 16 : 30;
-    for (var i = 0; i < count; i++) {
-      var span = document.createElement("span");
-      span.style.left = Math.random() * 100 + "%";
-      span.style.top = Math.random() * 100 + "%";
-      span.style.color = colors[i % colors.length];
-      span.style.animation = "particle-drift " + (6 + Math.random() * 8) + "s ease-in-out " + (Math.random() * 4) + "s infinite";
-      field.appendChild(span);
-    }
-    var styleTag = document.createElement("style");
-    styleTag.textContent =
-      "@keyframes particle-drift {" +
-      "0%,100% { transform: translateY(0) scale(1); opacity: .25; }" +
-      "50% { transform: translateY(-26px) scale(1.4); opacity: .9; }" +
-      "}";
-    document.head.appendChild(styleTag);
   }
 
   /* ---------------- glitch intro (single orchestrated moment) ---------------- */
@@ -311,7 +286,6 @@
     initNav();
     initLangToggle();
     initHeroParallax();
-    initParticles();
     initGlitchIntro();
     initFooterYear();
     initScrollSpy();
@@ -330,7 +304,7 @@
       console.error(err);
       document.body.insertAdjacentHTML(
         "afterbegin",
-        '<div style="position:fixed;inset:0;z-index:9999;background:#0a0e17;color:#ff2fb9;' +
+        '<div style="position:fixed;inset:0;z-index:9999;background:#efe8db;color:#e33a2c;' +
         'font-family:monospace;display:flex;align-items:center;justify-content:center;' +
         'text-align:center;padding:24px;">Could not load data/content.json.<br>' +
         'Serve this site over http:// (e.g. `npx serve`) instead of opening index.html directly.</div>'

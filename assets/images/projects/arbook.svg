@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0e17"/>
-      <stop offset="1" stop-color="#151328"/>
+      <stop offset="0" stop-color="#efe8db"/>
+      <stop offset="1" stop-color="#e7ded0"/>
     </linearGradient>
   </defs>
   <rect width="800" height="500" fill="url(#bg)"/>
-  <g stroke="#f5c518" stroke-opacity="0.18" stroke-width="1">
+  <g stroke="#16130f" stroke-opacity="0.14" stroke-width="1">
     <path d="M0 62 H800 M0 124 H800 M0 186 H800 M0 248 H800 M0 310 H800 M0 372 H800 M0 434 H800"/>
     <path d="M80 0 V500 M160 0 V500 M240 0 V500 M320 0 V500 M400 0 V500 M480 0 V500 M560 0 V500 M640 0 V500 M720 0 V500"/>
   </g>
-  <rect x="60" y="60" width="680" height="380" fill="none" stroke="#f5c518" stroke-width="2" opacity="0.6"/>
-  <text x="400" y="260" text-anchor="middle" font-family="monospace" font-size="28" fill="#f5c518" opacity="0.9">AR BOOK STORY</text>
-  <text x="400" y="292" text-anchor="middle" font-family="monospace" font-size="14" fill="#9dfc4a" opacity="0.7">// project screenshot</text>
+  <rect x="60" y="60" width="680" height="380" fill="none" stroke="#e33a2c" stroke-width="2" opacity="0.7"/>
+  <text x="400" y="260" text-anchor="middle" font-family="monospace" font-size="28" fill="#16130f" opacity="0.85">AR BOOK STORY</text>
+  <text x="400" y="292" text-anchor="middle" font-family="monospace" font-size="14" fill="#e33a2c" opacity="0.8">// project screenshot</text>
 </svg>

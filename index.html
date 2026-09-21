@@ -92,28 +92,45 @@
 
   <!-- HERO -->
   <section class="hero" id="top">
-    <div class="hero-scene" id="hero-scene">
-      <div class="hero-grid-floor" aria-hidden="true"></div>
-      <div class="hero-card-wrap" id="hero-card-wrap">
-        <div class="hero-card" id="hero-card">
-          <div class="hero-card-face hero-card-front">
-            <img src="assets/images/logo.png" alt="Sepehr Chahnavi emblem" class="hero-logo">
-          </div>
-          <div class="hero-card-glow"></div>
-          <div class="hero-card-ring hero-card-ring--1"></div>
-          <div class="hero-card-ring hero-card-ring--2"></div>
+    <span class="hero-corner hero-corner--tl" aria-hidden="true"></span>
+    <span class="hero-corner hero-corner--tr" aria-hidden="true"></span>
+    <span class="hero-corner hero-corner--bl" aria-hidden="true"></span>
+    <span class="hero-corner hero-corner--br" aria-hidden="true"></span>
+    <span class="hero-vertical-tag" data-i18n="hero.vertical_tag" aria-hidden="true">// PORTFOLIO_2026</span>
+
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-eyebrow" data-i18n="hero.eyebrow">Senior Game Developer</p>
+
+        <h1 class="hero-name">
+          <span class="hero-name-outline" data-i18n="hero.name_outline">SEPEHR</span>
+          <span class="hero-name-badge" data-i18n="hero.badge">LVL — SENIOR</span>
+          <span class="hero-name-solid" data-i18n="hero.name_solid" data-glitch>CHAHNAVI</span>
+        </h1>
+
+        <p class="hero-subhead" data-i18n="hero.headline">I build the systems games run on.</p>
+
+        <div class="hero-cta-row">
+          <a href="#projects" class="btn btn-primary" data-i18n="hero.cta_primary">View work</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta_secondary">Get in touch</a>
         </div>
       </div>
-      <div class="hero-particles" id="hero-particles" aria-hidden="true"></div>
-    </div>
 
-    <div class="hero-content">
-      <p class="hero-eyebrow" data-i18n="hero.eyebrow">Senior Game Developer</p>
-      <h1 class="hero-headline" data-i18n="hero.headline" data-glitch>I build the systems games run on.</h1>
-      <p class="hero-subhead" data-i18n="hero.subhead">Gameplay programming, multiplayer networking and AR/VR.</p>
-      <div class="hero-cta-row">
-        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta_primary">View work</a>
-        <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta_secondary">Get in touch</a>
+      <div class="hero-art">
+        <div class="hero-art-panel" aria-hidden="true"></div>
+        <div class="hero-art-frame" id="hero-art-frame">
+          <img src="assets/images/logo.png" alt="Sepehr Chahnavi emblem" class="hero-logo">
+        </div>
+        <div class="hero-quote">
+          <p id="hero-quote-text" data-i18n="hero.quote">"Ship it. Then make it faster."</p>
+        </div>
+        <a href="#contact" class="hero-info-card">
+          <span class="hero-info-title">
+            <span id="hero-card-title" data-i18n="hero.card_title">sepehr.exe</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="hero-info-text" data-i18n="hero.card_text">Stack: Unity, C#, multiplayer netcode, AR/VR.</span>
+        </a>
       </div>
     </div>
 
