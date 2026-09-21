@@ -1,0 +1,350 @@
+{
+  "site": {
+    "brand": "Sepehr Chahnavi",
+    "logo": "assets/images/logo.png",
+    "favicon32": "assets/images/favicon-32.png",
+    "favicon180": "assets/images/favicon-180.png",
+    "ogImage": "assets/images/favicon-512.png",
+    "siteUrl": "https://usef-farahmand.github.io/sepehr-chahnavi/",
+    "builtBy": {
+      "name": "Jolly Panda Studio",
+      "url": "https://jollypanda.ir"
+    }
+  },
+  "en": {
+    "lang": "en",
+    "dir": "ltr",
+    "meta": {
+      "title": "Sepehr Chahnavi — Senior Game Developer",
+      "description": "Sepehr Chahnavi is a Senior Game Developer specializing in gameplay programming, Unity, multiplayer networking and AR/VR. Founder of Rebellis AI, former CTO of Bitnerd Game Studio.",
+      "keywords": "Sepehr Chahnavi, Game Developer, Unity Developer, Gameplay Programmer, Multiplayer Networking, AR VR Developer, C# Developer, Rebellis AI, Bitnerd Game Studio"
+    },
+    "nav": {
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "education": "Education",
+      "contact": "Contact"
+    },
+    "a11y": {
+      "skip": "Skip to content"
+    },
+    "hero": {
+      "eyebrow": "Senior Game Developer",
+      "headline": "I build the systems games run on.",
+      "subhead": "Gameplay programming, multiplayer networking and AR/VR — from a 50x50 tile strategy game to core RTS mechanics running 400+ active units.",
+      "cta_primary": "View work",
+      "cta_secondary": "Get in touch",
+      "scroll": "Scroll"
+    },
+    "about": {
+      "heading": "About",
+      "kicker": "Born 1998 · Building games since 2019",
+      "image": "assets/images/about-placeholder.svg",
+      "paragraphs": [
+        "I'm a Senior Game Developer driving technical excellence and creative vision across gameplay systems, from core RTS mechanics to generative animation AI.",
+        "My work spans Unity, Phaser and libGDX, with a focus on multiplayer networking, performance optimization and shipping fighting games, strategy games and AR/VR experiences from concept to release.",
+        "I've founded a generative-animation AI platform, led a cross-functional studio team as CTO, and delivered blockchain-based games and isometric strategy titles with optimized rendering at scale."
+      ]
+    },
+    "experience": {
+      "heading": "Experience",
+      "items": [
+        {
+          "role": "Senior Game Developer",
+          "company": "Boresh Entertainment",
+          "location": "Canada",
+          "period": "08/2025 — Present",
+          "bullets": [
+            "Developed core RTS mechanics.",
+            "Optimized performance for 400+ active units."
+          ]
+        },
+        {
+          "role": "Cofounder",
+          "company": "Rebellis AI",
+          "location": "Netherlands",
+          "period": "09/2024 — 09/2025",
+          "note": "Generative animation AI",
+          "bullets": [
+            "Founded a generative animation AI platform for game and virtual production pipelines, and plugin.",
+            "Developed smoothing algorithms that improved animation quality and user experience."
+          ],
+          "link": { "label": "rebellis.ai", "url": "https://rebellis.ai/" }
+        },
+        {
+          "role": "CTO",
+          "company": "Bitnerd Game Studio",
+          "location": "UAE",
+          "period": "09/2023 — 08/2025",
+          "note": "Indie game studio focused on fighting games",
+          "bullets": [
+            "Led development of fighting games from concept to release.",
+            "Managed and mentored a cross-functional team of developers and designers."
+          ]
+        },
+        {
+          "role": "Senior Developer",
+          "company": "White Designers",
+          "location": "Iran",
+          "period": "12/2021 — 09/2022",
+          "bullets": [
+            "Designed and developed blockchain-based Unity games.",
+            "Delivered a 50x50 tile isometric strategy game with optimized rendering."
+          ]
+        },
+        {
+          "role": "Developer",
+          "company": "MegaTech",
+          "location": "Iran",
+          "period": "05/2019 — 02/2020",
+          "note": "AR/VR software and website production company",
+          "bullets": [
+            "Created AR applications for educational and entertainment products.",
+            "Developed the Persepolis Palace VR and LingoPam AR."
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "heading": "Skills",
+      "items": [
+        "Python", "Gameplay Programming", "Unity", "Game Design",
+        "Phaser Game Engine", "Multiplayer Networking", "HTML Game",
+        "LIBgdx", "C#", "Team Collaboration", "Problem Solving", "C++", "AR/VR"
+      ]
+    },
+    "projects": {
+      "heading": "Personal Projects",
+      "items": [
+        {
+          "title": "Book Shop App",
+          "year": "2019",
+          "description": "A PDF book shop app, built in the spirit of Fidibo.",
+          "image": "assets/images/projects/bookshop.svg",
+          "tags": ["Android", "PDF"]
+        },
+        {
+          "title": "Scary Black Jack",
+          "year": "2020",
+          "description": "An online blackjack game with a horror twist.",
+          "image": "assets/images/projects/blackjack.svg",
+          "tags": ["Online", "Card Game"]
+        },
+        {
+          "title": "3D PacMan",
+          "year": "2020",
+          "description": "Pac-Man reimagined in 3D — playable as Pac or as a ghost.",
+          "image": "assets/images/projects/pacman.svg",
+          "tags": ["3D", "Arcade"]
+        },
+        {
+          "title": "AR Book Story for Childs",
+          "year": "2021 — Present",
+          "description": "An augmented-reality storybook experience for children.",
+          "image": "assets/images/projects/arbook.svg",
+          "tags": ["AR", "Kids"]
+        }
+      ]
+    },
+    "education": {
+      "heading": "Education",
+      "items": [
+        {
+          "degree": "Software Engineer",
+          "school": "Montazery University",
+          "period": "2015 — 2017",
+          "courses": ["Metro Automation (website)", "Visual Face Maker (Android/libGDX)"]
+        },
+        {
+          "degree": "Software Engineer",
+          "school": "Sajjad University of Technology",
+          "period": "2017 — 2019",
+          "courses": ["Book Store App (Android)", "Physiotherapy Robot for Hand"]
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Get in touch",
+      "text": "Open to senior gameplay, technical direction and studio-leadership roles. Reach out by email or LinkedIn.",
+      "email": "skyhex.spr@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/sepehr-chahnavi/",
+      "linkedin_label": "linkedin.com/in/sepehr-chahnavi",
+      "email_cta": "Say hello",
+      "linkedin_cta": "Connect on LinkedIn"
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "builtBy": "Built by"
+    }
+  },
+  "fa": {
+    "lang": "fa",
+    "dir": "rtl",
+    "meta": {
+      "title": "سپهر چاه‌نوی — توسعه‌دهنده ارشد بازی",
+      "description": "سپهر چاه‌نوی توسعه‌دهنده ارشد بازی با تمرکز بر برنامه‌نویسی گیم‌پلی، یونیتی، شبکه چندنفره و AR/VR. بنیان‌گذار Rebellis AI و مدیر فنی پیشین استودیو Bitnerd.",
+      "keywords": "سپهر چاه‌نوی, توسعه‌دهنده بازی, برنامه‌نویس یونیتی, گیم‌پلی پروگرمر, شبکه چندنفره, توسعه‌دهنده AR VR"
+    },
+    "nav": {
+      "about": "درباره من",
+      "experience": "سوابق کاری",
+      "skills": "مهارت‌ها",
+      "projects": "پروژه‌ها",
+      "education": "تحصیلات",
+      "contact": "تماس"
+    },
+    "a11y": {
+      "skip": "رفتن به محتوا"
+    },
+    "hero": {
+      "eyebrow": "توسعه‌دهنده ارشد بازی",
+      "headline": "سازنده‌ی سیستم‌هایی که بازی‌ها روی آن اجرا می‌شوند.",
+      "subhead": "برنامه‌نویسی گیم‌پلی، شبکه چندنفره و AR/VR؛ از یک بازی استراتژی با کاشی‌های ۵۰در۵۰ تا مکانیک‌های اصلی RTS با بیش از ۴۰۰ یگان فعال.",
+      "cta_primary": "مشاهده نمونه‌کارها",
+      "cta_secondary": "تماس با من",
+      "scroll": "اسکرول"
+    },
+    "about": {
+      "heading": "درباره من",
+      "kicker": "متولد ۱۹۹۸ · ساخت بازی از ۲۰۱۹",
+      "image": "assets/images/about-placeholder.svg",
+      "paragraphs": [
+        "من یک توسعه‌دهنده ارشد بازی هستم که برتری فنی و چشم‌انداز خلاقانه را در سیستم‌های گیم‌پلی، از مکانیک‌های اصلی RTS تا هوش مصنوعی تولید انیمیشن، پیش می‌برم.",
+        "کار من یونیتی، Phaser و libGDX را در بر می‌گیرد، با تمرکز بر شبکه چندنفره، بهینه‌سازی عملکرد و عرضه بازی‌های مبارزه‌ای، استراتژیک و تجربه‌های AR/VR از ایده تا انتشار.",
+        "یک پلتفرم هوش مصنوعی تولید انیمیشن بنیان‌گذاری کرده‌ام، به‌عنوان مدیر فنی تیم بین‌بخشی یک استودیو را هدایت کرده‌ام، و بازی‌های مبتنی بر بلاک‌چین و عناوین استراتژی ایزومتریک با رندرینگ بهینه در مقیاس بزرگ ارائه داده‌ام."
+      ]
+    },
+    "experience": {
+      "heading": "سوابق کاری",
+      "items": [
+        {
+          "role": "توسعه‌دهنده ارشد بازی",
+          "company": "Boresh Entertainment",
+          "location": "کانادا",
+          "period": "مرداد ۱۴۰۴ — اکنون",
+          "bullets": [
+            "توسعه مکانیک‌های اصلی RTS.",
+            "بهینه‌سازی عملکرد برای بیش از ۴۰۰ یگان فعال."
+          ]
+        },
+        {
+          "role": "بنیان‌گذار",
+          "company": "Rebellis AI",
+          "location": "هلند",
+          "period": "شهریور ۱۴۰۳ — شهریور ۱۴۰۴",
+          "note": "هوش مصنوعی تولید انیمیشن",
+          "bullets": [
+            "بنیان‌گذاری یک پلتفرم هوش مصنوعی تولید انیمیشن برای بازی و خط تولید فیلم‌برداری مجازی، همراه با پلاگین.",
+            "توسعه الگوریتم‌های smoothing که کیفیت انیمیشن و تجربه کاربری را بهبود بخشید."
+          ],
+          "link": { "label": "rebellis.ai", "url": "https://rebellis.ai/" }
+        },
+        {
+          "role": "مدیر فنی (CTO)",
+          "company": "Bitnerd Game Studio",
+          "location": "امارات",
+          "period": "شهریور ۱۴۰۲ — مرداد ۱۴۰۴",
+          "note": "استودیوی مستقل با تمرکز بر بازی‌های مبارزه‌ای",
+          "bullets": [
+            "هدایت توسعه بازی‌های مبارزه‌ای از ایده تا انتشار.",
+            "مدیریت و منتورینگ تیمی بین‌بخشی از توسعه‌دهندگان و طراحان."
+          ]
+        },
+        {
+          "role": "توسعه‌دهنده ارشد",
+          "company": "White Designers",
+          "location": "ایران",
+          "period": "آذر ۱۴۰۰ — شهریور ۱۴۰۱",
+          "bullets": [
+            "طراحی و توسعه بازی‌های یونیتی مبتنی بر بلاک‌چین.",
+            "ارائه یک بازی استراتژی ایزومتریک با کاشی‌های ۵۰در۵۰ و رندرینگ بهینه."
+          ]
+        },
+        {
+          "role": "توسعه‌دهنده",
+          "company": "MegaTech",
+          "location": "ایران",
+          "period": "اردیبهشت ۱۳۹۸ — بهمن ۱۳۹۸",
+          "note": "شرکت تولید نرم‌افزار و وب‌سایت AR/VR",
+          "bullets": [
+            "ساخت اپلیکیشن‌های واقعیت افزوده برای محصولات آموزشی و سرگرمی.",
+            "توسعه پروژه‌های Persepolis Palace VR و LingoPam AR."
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "heading": "مهارت‌ها",
+      "items": [
+        "پایتون", "برنامه‌نویسی گیم‌پلی", "یونیتی", "طراحی بازی",
+        "موتور بازی Phaser", "شبکه چندنفره", "بازی HTML",
+        "LIBgdx", "#C", "همکاری تیمی", "حل مسئله", "++C", "AR/VR"
+      ]
+    },
+    "projects": {
+      "heading": "پروژه‌های شخصی",
+      "items": [
+        {
+          "title": "اپلیکیشن کتاب‌فروشی",
+          "year": "۲۰۱۹",
+          "description": "اپلیکیشن فروش کتاب PDF، با الهام از فیدیبو.",
+          "image": "assets/images/projects/bookshop.svg",
+          "tags": ["اندروید", "PDF"]
+        },
+        {
+          "title": "بلک‌جک ترسناک",
+          "year": "۲۰۲۰",
+          "description": "بازی بلک‌جک آنلاین با فضایی ترسناک.",
+          "image": "assets/images/projects/blackjack.svg",
+          "tags": ["آنلاین", "بازی کارتی"]
+        },
+        {
+          "title": "پک‌من سه‌بعدی",
+          "year": "۲۰۲۰",
+          "description": "بازسازی پک‌من در فضای سه‌بعدی — قابل بازی از دید پک یا شبح.",
+          "image": "assets/images/projects/pacman.svg",
+          "tags": ["سه‌بعدی", "آرکید"]
+        },
+        {
+          "title": "کتاب داستان واقعیت افزوده کودکان",
+          "year": "۲۰۲۱ — اکنون",
+          "description": "تجربه‌ی کتاب داستان واقعیت افزوده برای کودکان.",
+          "image": "assets/images/projects/arbook.svg",
+          "tags": ["AR", "کودکان"]
+        }
+      ]
+    },
+    "education": {
+      "heading": "تحصیلات",
+      "items": [
+        {
+          "degree": "مهندسی نرم‌افزار",
+          "school": "دانشگاه منتظری",
+          "period": "۱۳۹۴ — ۱۳۹۶",
+          "courses": ["اتوماسیون مترو (وب‌سایت)", "Visual Face Maker (اندروید/libGDX)"]
+        },
+        {
+          "degree": "مهندسی نرم‌افزار",
+          "school": "دانشگاه صنعتی سجاد",
+          "period": "۱۳۹۶ — ۱۳۹۸",
+          "courses": ["اپلیکیشن کتاب‌فروشی (اندروید)", "ربات فیزیوتراپی دست"]
+        }
+      ]
+    },
+    "contact": {
+      "heading": "در تماس باشید",
+      "text": "آماده همکاری در نقش‌های ارشد گیم‌پلی، مدیریت فنی و رهبری استودیو هستم. از طریق ایمیل یا لینکدین در ارتباط باشید.",
+      "email": "skyhex.spr@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/sepehr-chahnavi/",
+      "linkedin_label": "linkedin.com/in/sepehr-chahnavi",
+      "email_cta": "ارسال ایمیل",
+      "linkedin_cta": "اتصال در لینکدین"
+    },
+    "footer": {
+      "rights": "تمامی حقوق محفوظ است.",
+      "builtBy": "طراحی و ساخت توسط"
+    }
+  }
+}
