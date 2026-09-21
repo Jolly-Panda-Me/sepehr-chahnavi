@@ -48,7 +48,7 @@
     "about": {
       "heading": "About",
       "kicker": "Born 1998 · Building games since 2019",
-      "image": "assets/images/about-placeholder.svg",
+      "image": "assets/images/about.jpg",
       "paragraphs": [
         "I'm a Senior Game Developer driving technical excellence and creative vision across gameplay systems, from core RTS mechanics to generative animation AI.",
         "My work spans Unity, Phaser and libGDX, with a focus on multiplayer networking, performance optimization and shipping fighting games, strategy games and AR/VR experiences from concept to release.",
@@ -254,7 +254,7 @@
     "about": {
       "heading": "درباره من",
       "kicker": "متولد ۱۹۹۸ · ساخت بازی از ۲۰۱۹",
-      "image": "assets/images/about-placeholder.svg",
+      "image": "assets/images/about.jpg",
       "paragraphs": [
         "من یک توسعه‌دهنده ارشد بازی هستم که برتری فنی و چشم‌انداز خلاقانه را در سیستم‌های گیم‌پلی، از مکانیک‌های اصلی RTS تا هوش مصنوعی تولید انیمیشن، پیش می‌برم.",
         "کار من یونیتی، Phaser و libGDX را در بر می‌گیرد، با تمرکز بر شبکه چندنفره، بهینه‌سازی عملکرد و عرضه بازی‌های مبارزه‌ای، استراتژیک و تجربه‌های AR/VR از ایده تا انتشار.",
