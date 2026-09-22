@@ -1,0 +1,47 @@
+/* =========================================================
+   Self-hosted Vazirmatn — no Google Fonts request for the
+   Persian typeface. Orbitron and Rajdhani (the English display/
+   body fonts) are NOT self-hosted here: those font files were
+   never part of this project and aren't available to bundle
+   without downloading them from Google Fonts, which this
+   environment has no network access to do. They still load from
+   the Google Fonts <link> in index.html until real font files are
+   added under assets/fonts/ and matching @font-face rules are
+   written here.
+   ========================================================= */
+
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-ExtraBold.woff2") format("woff2");
+}

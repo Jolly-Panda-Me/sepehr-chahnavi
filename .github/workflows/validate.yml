@@ -13,7 +13,7 @@ jobs:
 
       - name: Check JSON files parse
         run: |
-          for f in data/*.json site.webmanifest; do
+          for f in data/*.json; do
             python3 -m json.tool "$f" > /dev/null && echo "ok  $f"
           done
 

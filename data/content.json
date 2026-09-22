@@ -4,7 +4,7 @@
     "logo": "assets/images/logo.png",
     "favicon32": "assets/images/favicon-32.png",
     "favicon180": "assets/images/favicon-180.png",
-    "ogImage": "assets/images/favicon-512.png",
+    "ogImage": "assets/images/og/og-image.jpg",
     "siteUrl": "https://usef-farahmand.github.io/sepehr-chahnavi/",
     "builtBy": {
       "name": "Jolly Panda Studio",
